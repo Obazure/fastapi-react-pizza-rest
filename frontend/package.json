@@ -1,0 +1,63 @@
+{
+  "name": "scoutbee-pizza",
+  "description": "Sample app pizza list, pizza create.",
+  "author": "Obazure <conprefor@gmail.com>",
+  "license": "ISC",
+  "version": "0.1.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoutbeerecruiting/fullstack-task-Obazure.git"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "antd": "^4.6.4",
+    "eslint": "^6.6.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "node": "^14.11.0",
+    "process": "^0.11.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-highlight-words": "^0.16.0",
+    "react-query": "^2.20.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "typedoc": "^0.19.1",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-highlight-words": "^0.16.1",
+    "@types/react-router-dom": "^5.1.5"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^5.2.1",
+    "@typescript-eslint/eslint-plugin": "4.0.1",
+    "@typescript-eslint/parser": "4.0.1",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-server": "node server.js",
+    "build-docs": "typedoc src",
+    "lint": "eslint **.{js,ts,tsx} --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
